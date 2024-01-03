@@ -1,0 +1,21 @@
+{
+  "platform-version": "2.3",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "full_page_app": {
+          "url": "views/fullpage.html",
+          "icon": "styles/images/icon.svg"
+        },
+        "ticket_sidebar": {
+          "url": "views/sidebar.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "18.17.1",
+    "fdk": "9.0.3"
+  }
+}

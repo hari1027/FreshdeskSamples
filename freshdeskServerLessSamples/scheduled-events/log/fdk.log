@@ -1,0 +1,621 @@
+2023-08-17 13:40:11.775 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-17 13:40:11.776 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-17 13:40:11.776 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2023-08-17 13:40:11.776 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-17 13:40:11.777 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2023-08-17 13:40:11.777 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2023-08-17 13:40:11.777 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-17 13:40:11.777 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.16.1 on win32[0m
+2023-08-17 13:40:11.777 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/store.sqlite"[0m
+2023-08-17 13:40:11.777 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 13:40:11.777 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2023-08-17 13:40:11.780 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2023-08-17 13:40:11.943 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"templates/index.html","icon":"images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"dependencies":{"request":"2.88.2","base-64":"1.0.0"},"engines":{"node":"18.16.1","fdk":"9.0.3"}}.[0m
+2023-08-17 13:40:11.943 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2023-08-17 13:40:11.945 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 13:40:11.957 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 13:40:12.775 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 13:40:13.523 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2023-08-17 13:40:13.524 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2023-08-17 13:40:13.524 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2023-08-17 13:40:13.524 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2023-08-17 13:40:13.525 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2023-08-17 13:40:13.525 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/config/ exists.[0m
+2023-08-17 13:40:13.525 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2023-08-17 13:40:13.525 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2023-08-17 13:40:13.525 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2023-08-17 13:40:13.535 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-17 13:40:13.535 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2023-08-17 13:40:13.538 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2023-08-17 13:40:13.538 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2023-08-17 13:40:13.540 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\index.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 13:40:13.567 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\list_schedule.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 13:40:13.577 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\schedule_detail.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 13:40:13.591 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\util.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 13:40:13.595 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file server\server.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-dependency-mismatch,no-empty-function,no-unused-vars[0m
+2023-08-17 13:40:13.602 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2023-08-17 13:40:13.602 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2023-08-17 13:40:13.602 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2023-08-17 13:40:13.603 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2023-08-17 13:40:13.603 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2023-08-17 13:40:13.603 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2023-08-17 13:40:13.606 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-17 13:40:13.606 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function createSchedule[0m
+2023-08-17 13:40:13.607 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function fetchSchedule[0m
+2023-08-17 13:40:13.607 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function updateSchedule[0m
+2023-08-17 13:40:13.607 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function deleteSchedule[0m
+2023-08-17 13:40:13.608 +0530 [warn] Please ensure that the following are addressed for quick review process:
+2023-08-17 13:40:13.609 +0530 [warn] [33m‼[39m app\js\index.js::31: Expected rejection to be handled.
+2023-08-17 13:40:13.609 +0530 [warn] [33m‼[39m app\js\list_schedule.js::24: Expected rejection to be handled.
+2023-08-17 13:40:13.609 +0530 [warn] [33m‼[39m app\js\list_schedule.js::109: Expected rejection to be handled.
+2023-08-17 13:40:13.609 +0530 [warn] [33m‼[39m app\js\list_schedule.js::111: Expected rejection to be handled.
+2023-08-17 13:40:13.610 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::165: Expected rejection to be handled.
+2023-08-17 13:40:13.610 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::168: Expected rejection to be handled.
+2023-08-17 13:40:13.610 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::172: Expected rejection to be handled.
+2023-08-17 13:40:13.610 +0530 [error] 
+2023-08-17 13:40:13.611 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2023-08-17 13:40:13.615 +0530 [debug] ([34minstall.js[0m) [31mdependency installer called with {"request":"2.88.2","base-64":"1.0.0"}[0m
+2023-08-17 13:40:13.642 +0530 [debug] ([34minstall.js[0m) [31mPreparing to install the following dependencies request@2.88.2,base-64@1.0.0[0m
+2023-08-17 13:40:13.643 +0530 [info] Installing dependencies...
+2023-08-17 13:40:16.450 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-17 13:40:16.450 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? undefined[0m
+2023-08-17 13:40:16.450 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2023-08-17 13:40:16.554 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2023-08-17 13:40:16.555 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2023-08-17 13:40:16.556 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2023-08-17 13:40:16.557 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2023-08-17 13:40:16.558 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2023-08-17 13:40:16.558 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2023-08-17 13:40:16.570 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-17 13:40:16.570 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2023-08-17 13:40:16.571 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2023-08-17 13:40:16.571 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2023-08-17 13:40:16.571 +0530 [info] Populating test data with events found in the app
+2023-08-17 13:40:16.572 +0530 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2023-08-17 13:40:35.753 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-17 13:40:35.755 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-17 13:40:35.755 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2023-08-17 13:40:35.755 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-17 13:40:35.755 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2023-08-17 13:40:35.755 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2023-08-17 13:40:35.755 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-17 13:40:35.755 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.16.1 on win32[0m
+2023-08-17 13:40:35.756 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/store.sqlite"[0m
+2023-08-17 13:40:35.756 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 13:40:35.756 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2023-08-17 13:40:35.759 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2023-08-17 13:40:35.927 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"templates/index.html","icon":"images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"dependencies":{"request":"2.88.2","base-64":"1.0.0"},"engines":{"node":"18.16.1","fdk":"9.0.3"}}.[0m
+2023-08-17 13:40:35.928 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2023-08-17 13:40:35.930 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 13:40:35.942 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 13:40:36.810 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 13:40:37.574 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2023-08-17 13:40:37.574 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2023-08-17 13:40:37.574 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2023-08-17 13:40:37.575 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2023-08-17 13:40:37.575 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2023-08-17 13:40:37.575 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/config/ exists.[0m
+2023-08-17 13:40:37.576 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2023-08-17 13:40:37.576 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2023-08-17 13:40:37.576 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2023-08-17 13:40:37.587 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-17 13:40:37.587 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2023-08-17 13:40:37.590 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2023-08-17 13:40:37.590 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2023-08-17 13:40:37.593 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\index.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 13:40:37.623 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\list_schedule.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 13:40:37.634 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\schedule_detail.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 13:40:37.648 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\util.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 13:40:37.653 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file server\server.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-dependency-mismatch,no-empty-function,no-unused-vars[0m
+2023-08-17 13:40:37.661 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2023-08-17 13:40:37.661 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2023-08-17 13:40:37.661 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2023-08-17 13:40:37.661 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2023-08-17 13:40:37.661 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2023-08-17 13:40:37.661 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2023-08-17 13:40:37.665 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-17 13:40:37.666 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function createSchedule[0m
+2023-08-17 13:40:37.666 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function fetchSchedule[0m
+2023-08-17 13:40:37.666 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function updateSchedule[0m
+2023-08-17 13:40:37.666 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function deleteSchedule[0m
+2023-08-17 13:40:37.668 +0530 [warn] Please ensure that the following are addressed for quick review process:
+2023-08-17 13:40:37.668 +0530 [warn] [33m‼[39m app\js\index.js::31: Expected rejection to be handled.
+2023-08-17 13:40:37.668 +0530 [warn] [33m‼[39m app\js\list_schedule.js::24: Expected rejection to be handled.
+2023-08-17 13:40:37.669 +0530 [warn] [33m‼[39m app\js\list_schedule.js::109: Expected rejection to be handled.
+2023-08-17 13:40:37.669 +0530 [warn] [33m‼[39m app\js\list_schedule.js::111: Expected rejection to be handled.
+2023-08-17 13:40:37.669 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::165: Expected rejection to be handled.
+2023-08-17 13:40:37.669 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::168: Expected rejection to be handled.
+2023-08-17 13:40:37.670 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::172: Expected rejection to be handled.
+2023-08-17 13:40:37.670 +0530 [error] 
+2023-08-17 13:40:37.671 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2023-08-17 13:40:37.675 +0530 [debug] ([34minstall.js[0m) [31mdependency installer called with {"request":"2.88.2","base-64":"1.0.0"}[0m
+2023-08-17 13:40:37.707 +0530 [debug] ([34minstall.js[0m) [31mPreparing to install the following dependencies request@2.88.2,base-64@1.0.0[0m
+2023-08-17 13:40:37.707 +0530 [info] Installing dependencies...
+2023-08-17 13:40:38.664 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-17 13:40:38.664 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? undefined[0m
+2023-08-17 13:40:38.664 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2023-08-17 13:40:38.844 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2023-08-17 13:40:38.846 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2023-08-17 13:40:38.846 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2023-08-17 13:40:38.847 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2023-08-17 13:40:38.848 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2023-08-17 13:40:38.849 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2023-08-17 13:40:38.861 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-17 13:40:38.861 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2023-08-17 13:40:38.862 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2023-08-17 13:40:38.862 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2023-08-17 13:40:38.862 +0530 [info] Populating test data with events found in the app
+2023-08-17 13:40:38.863 +0530 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2023-08-17 19:44:06.499 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-17 19:44:06.501 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-17 19:44:06.501 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2023-08-17 19:44:06.501 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-17 19:44:06.501 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2023-08-17 19:44:06.501 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2023-08-17 19:44:06.501 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-17 19:44:06.501 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.16.1 on win32[0m
+2023-08-17 19:44:06.501 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/store.sqlite"[0m
+2023-08-17 19:44:06.502 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 19:44:06.502 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2023-08-17 19:44:06.505 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2023-08-17 19:44:06.668 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"templates/index.html","icon":"images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"dependencies":{"request":"2.88.2","base-64":"1.0.0"},"engines":{"node":"18.16.1","fdk":"9.0.3"}}.[0m
+2023-08-17 19:44:06.669 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2023-08-17 19:44:06.670 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 19:44:06.682 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 19:44:07.512 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692254042377}}[0m
+2023-08-17 19:44:08.252 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2023-08-17 19:44:08.253 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2023-08-17 19:44:08.253 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2023-08-17 19:44:08.253 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2023-08-17 19:44:08.254 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2023-08-17 19:44:08.254 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/config/ exists.[0m
+2023-08-17 19:44:08.254 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2023-08-17 19:44:08.254 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2023-08-17 19:44:08.254 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2023-08-17 19:44:08.264 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-17 19:44:08.264 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2023-08-17 19:44:08.267 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2023-08-17 19:44:08.267 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2023-08-17 19:44:08.269 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\index.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 19:44:08.296 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\list_schedule.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 19:44:08.306 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\schedule_detail.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 19:44:08.319 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\util.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-17 19:44:08.324 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file server\server.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-dependency-mismatch,no-empty-function,no-unused-vars[0m
+2023-08-17 19:44:08.331 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2023-08-17 19:44:08.331 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2023-08-17 19:44:08.331 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2023-08-17 19:44:08.331 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2023-08-17 19:44:08.331 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2023-08-17 19:44:08.332 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2023-08-17 19:44:08.335 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-17 19:44:08.335 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function createSchedule[0m
+2023-08-17 19:44:08.336 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function fetchSchedule[0m
+2023-08-17 19:44:08.336 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function updateSchedule[0m
+2023-08-17 19:44:08.336 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function deleteSchedule[0m
+2023-08-17 19:44:08.337 +0530 [warn] Please ensure that the following are addressed for quick review process:
+2023-08-17 19:44:08.338 +0530 [warn] [33m‼[39m app\js\index.js::31: Expected rejection to be handled.
+2023-08-17 19:44:08.338 +0530 [warn] [33m‼[39m app\js\list_schedule.js::24: Expected rejection to be handled.
+2023-08-17 19:44:08.338 +0530 [warn] [33m‼[39m app\js\list_schedule.js::109: Expected rejection to be handled.
+2023-08-17 19:44:08.338 +0530 [warn] [33m‼[39m app\js\list_schedule.js::111: Expected rejection to be handled.
+2023-08-17 19:44:08.338 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::165: Expected rejection to be handled.
+2023-08-17 19:44:08.338 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::168: Expected rejection to be handled.
+2023-08-17 19:44:08.338 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::172: Expected rejection to be handled.
+2023-08-17 19:44:08.339 +0530 [error] 
+2023-08-17 19:44:08.340 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2023-08-17 19:44:08.343 +0530 [debug] ([34minstall.js[0m) [31mdependency installer called with {"request":"2.88.2","base-64":"1.0.0"}[0m
+2023-08-17 19:44:08.366 +0530 [debug] ([34minstall.js[0m) [31mPreparing to install the following dependencies request@2.88.2,base-64@1.0.0[0m
+2023-08-17 19:44:08.366 +0530 [info] Installing dependencies...
+2023-08-17 19:44:09.960 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-17 19:44:09.960 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? undefined[0m
+2023-08-17 19:44:09.960 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2023-08-17 19:44:10.117 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2023-08-17 19:44:10.118 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2023-08-17 19:44:10.119 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2023-08-17 19:44:10.119 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2023-08-17 19:44:10.120 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2023-08-17 19:44:10.121 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2023-08-17 19:44:10.132 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-17 19:44:10.133 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2023-08-17 19:44:10.133 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2023-08-17 19:44:10.133 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2023-08-17 19:44:10.134 +0530 [info] Populating test data with events found in the app
+2023-08-17 19:44:10.134 +0530 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2023-08-18 15:40:56.939 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-18 15:40:56.940 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-18 15:40:56.941 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2023-08-18 15:40:56.941 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-18 15:40:56.941 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2023-08-18 15:40:56.941 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2023-08-18 15:40:56.941 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-18 15:40:56.941 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.16.1 on win32[0m
+2023-08-18 15:40:56.941 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/store.sqlite"[0m
+2023-08-18 15:40:56.941 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:40:56.941 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2023-08-18 15:40:56.944 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2023-08-18 15:40:57.131 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"templates/index.html","icon":"images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"dependencies":{"request":"2.88.2","base-64":"1.0.0"},"engines":{"node":"18.16.1","fdk":"9.0.3"}}.[0m
+2023-08-18 15:40:57.132 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2023-08-18 15:40:57.135 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:40:57.148 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:40:58.042 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:40:58.867 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2023-08-18 15:40:58.868 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2023-08-18 15:40:58.868 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2023-08-18 15:40:58.868 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2023-08-18 15:40:58.869 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2023-08-18 15:40:58.869 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/config/ exists.[0m
+2023-08-18 15:40:58.869 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2023-08-18 15:40:58.869 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2023-08-18 15:40:58.869 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2023-08-18 15:40:58.882 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-18 15:40:58.882 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2023-08-18 15:40:58.887 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2023-08-18 15:40:58.887 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2023-08-18 15:40:58.894 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\index.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:40:58.923 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\list_schedule.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:40:58.934 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\schedule_detail.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:40:58.954 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\util.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:40:58.959 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file server\server.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-dependency-mismatch,no-empty-function,no-unused-vars[0m
+2023-08-18 15:40:58.967 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2023-08-18 15:40:58.967 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2023-08-18 15:40:58.967 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2023-08-18 15:40:58.967 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2023-08-18 15:40:58.967 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2023-08-18 15:40:58.967 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2023-08-18 15:40:58.972 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-18 15:40:58.972 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function createSchedule[0m
+2023-08-18 15:40:58.972 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function fetchSchedule[0m
+2023-08-18 15:40:58.973 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function updateSchedule[0m
+2023-08-18 15:40:58.973 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function deleteSchedule[0m
+2023-08-18 15:40:58.974 +0530 [warn] Please ensure that the following are addressed for quick review process:
+2023-08-18 15:40:58.975 +0530 [warn] [33m‼[39m app\js\index.js::31: Expected rejection to be handled.
+2023-08-18 15:40:58.975 +0530 [warn] [33m‼[39m app\js\list_schedule.js::24: Expected rejection to be handled.
+2023-08-18 15:40:58.975 +0530 [warn] [33m‼[39m app\js\list_schedule.js::109: Expected rejection to be handled.
+2023-08-18 15:40:58.975 +0530 [warn] [33m‼[39m app\js\list_schedule.js::111: Expected rejection to be handled.
+2023-08-18 15:40:58.976 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::165: Expected rejection to be handled.
+2023-08-18 15:40:58.976 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::168: Expected rejection to be handled.
+2023-08-18 15:40:58.976 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::172: Expected rejection to be handled.
+2023-08-18 15:40:58.977 +0530 [error] 
+2023-08-18 15:40:58.978 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2023-08-18 15:40:58.982 +0530 [debug] ([34minstall.js[0m) [31mdependency installer called with {"request":"2.88.2","base-64":"1.0.0"}[0m
+2023-08-18 15:40:59.008 +0530 [debug] ([34minstall.js[0m) [31mPreparing to install the following dependencies request@2.88.2,base-64@1.0.0[0m
+2023-08-18 15:40:59.008 +0530 [info] Installing dependencies...
+2023-08-18 15:41:00.415 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:00.415 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? undefined[0m
+2023-08-18 15:41:00.415 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2023-08-18 15:41:00.728 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2023-08-18 15:41:00.729 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2023-08-18 15:41:00.730 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2023-08-18 15:41:00.730 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2023-08-18 15:41:00.731 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2023-08-18 15:41:00.732 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2023-08-18 15:41:00.744 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:00.745 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2023-08-18 15:41:00.746 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2023-08-18 15:41:00.747 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2023-08-18 15:41:00.747 +0530 [info] Populating test data with events found in the app
+2023-08-18 15:41:00.748 +0530 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2023-08-18 15:41:44.341 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:44.344 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:44.344 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:41:44.911 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:44.912 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:44.912 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:41:45.190 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:45.192 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:45.193 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:41:45.433 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:45.435 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:45.435 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:41:45.691 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:45.693 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:45.693 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:41:45.933 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:45.935 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:45.936 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:41:46.178 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:46.179 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:46.180 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:41:46.418 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:46.420 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:46.420 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:41:46.660 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:46.662 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:41:46.663 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:41:46.686 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /templates/index.html[0m
+2023-08-18 15:41:46.710 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/util.js[0m
+2023-08-18 15:41:46.711 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\util.js[0m
+2023-08-18 15:41:46.785 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/index.js[0m
+2023-08-18 15:41:46.786 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\index.js[0m
+2023-08-18 15:41:48.897 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 15:45:09.880 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /templates/schedule_detail.html[0m
+2023-08-18 15:45:09.901 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/schedule_detail.js[0m
+2023-08-18 15:45:09.902 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\schedule_detail.js[0m
+2023-08-18 15:45:10.100 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/util.js[0m
+2023-08-18 15:45:10.102 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\util.js[0m
+2023-08-18 15:45:10.808 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 15:45:12.126 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 15:53:44.128 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 15:54:20.136 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 15:54:31.174 +0530 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"createSchedule","methodParams":{"scheduleName":"5c87-aefc-405e-4428","scheduleData":{"subject":"hari04@gmail.com","description":"test","contact":"hari04@gmail.com","status":2,"priority":1,"scheduleAt":"2023-08-18T17:54","loggedInUserId":36004999747,"scheduleName":"5c87-aefc-405e-4428","scheduleAtUTC":"2023-08-18T12:24:00.000Z"}}}[0m
+2023-08-18 15:56:17.979 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-18 15:56:17.980 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-18 15:56:17.981 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2023-08-18 15:56:17.981 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-18 15:56:17.981 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2023-08-18 15:56:17.982 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2023-08-18 15:56:17.982 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-18 15:56:17.982 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.16.1 on win32[0m
+2023-08-18 15:56:17.982 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/store.sqlite"[0m
+2023-08-18 15:56:17.982 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:56:17.982 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2023-08-18 15:56:17.985 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2023-08-18 15:56:18.184 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"templates/index.html","icon":"images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"dependencies":{"request":"2.88.2","base-64":"1.0.0"},"engines":{"node":"18.16.1","fdk":"9.0.3"}}.[0m
+2023-08-18 15:56:18.184 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2023-08-18 15:56:18.186 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:56:18.201 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:56:19.128 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:56:20.008 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2023-08-18 15:56:20.008 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2023-08-18 15:56:20.008 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2023-08-18 15:56:20.008 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2023-08-18 15:56:20.009 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2023-08-18 15:56:20.009 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/config/ exists.[0m
+2023-08-18 15:56:20.010 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2023-08-18 15:56:20.010 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2023-08-18 15:56:20.010 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2023-08-18 15:56:20.020 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-18 15:56:20.020 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2023-08-18 15:56:20.023 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2023-08-18 15:56:20.023 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2023-08-18 15:56:20.026 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\index.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:56:20.055 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\list_schedule.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:56:20.068 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\schedule_detail.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:56:20.081 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\util.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:56:20.085 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file server\server.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-dependency-mismatch,no-empty-function,no-unused-vars[0m
+2023-08-18 15:56:20.092 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2023-08-18 15:56:20.093 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2023-08-18 15:56:20.093 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2023-08-18 15:56:20.093 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2023-08-18 15:56:20.093 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2023-08-18 15:56:20.093 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2023-08-18 15:56:20.097 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-18 15:56:20.097 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function createSchedule[0m
+2023-08-18 15:56:20.097 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function fetchSchedule[0m
+2023-08-18 15:56:20.098 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function updateSchedule[0m
+2023-08-18 15:56:20.098 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function deleteSchedule[0m
+2023-08-18 15:56:20.099 +0530 [warn] Please ensure that the following are addressed for quick review process:
+2023-08-18 15:56:20.100 +0530 [warn] [33m‼[39m app\js\index.js::31: Expected rejection to be handled.
+2023-08-18 15:56:20.100 +0530 [warn] [33m‼[39m app\js\list_schedule.js::24: Expected rejection to be handled.
+2023-08-18 15:56:20.101 +0530 [warn] [33m‼[39m app\js\list_schedule.js::109: Expected rejection to be handled.
+2023-08-18 15:56:20.101 +0530 [warn] [33m‼[39m app\js\list_schedule.js::111: Expected rejection to be handled.
+2023-08-18 15:56:20.101 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::165: Expected rejection to be handled.
+2023-08-18 15:56:20.102 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::168: Expected rejection to be handled.
+2023-08-18 15:56:20.102 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::172: Expected rejection to be handled.
+2023-08-18 15:56:20.102 +0530 [error] 
+2023-08-18 15:56:20.103 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2023-08-18 15:56:20.107 +0530 [debug] ([34minstall.js[0m) [31mdependency installer called with {"request":"2.88.2","base-64":"1.0.0"}[0m
+2023-08-18 15:56:20.136 +0530 [debug] ([34minstall.js[0m) [31mPreparing to install the following dependencies request@2.88.2,base-64@1.0.0[0m
+2023-08-18 15:56:20.136 +0530 [info] Installing dependencies...
+2023-08-18 15:56:20.475 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:20.476 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:20.476 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:56:20.934 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:20.935 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:20.935 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:56:21.166 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:21.166 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:21.167 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:56:21.399 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:21.400 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:21.400 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:56:21.633 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:21.633 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? undefined[0m
+2023-08-18 15:56:21.633 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2023-08-18 15:56:21.686 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:21.687 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:21.687 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:56:21.920 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:21.921 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:21.921 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"scheduled-events","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/templates/index.html","icon":"agent/images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2023-08-18 15:56:21.950 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /templates/index.html[0m
+2023-08-18 15:56:21.975 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/util.js[0m
+2023-08-18 15:56:21.976 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\util.js[0m
+2023-08-18 15:56:22.088 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/index.js[0m
+2023-08-18 15:56:22.089 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\index.js[0m
+2023-08-18 15:56:22.184 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2023-08-18 15:56:22.187 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2023-08-18 15:56:22.188 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2023-08-18 15:56:22.189 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2023-08-18 15:56:22.190 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2023-08-18 15:56:22.192 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2023-08-18 15:56:22.218 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:56:22.219 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2023-08-18 15:56:22.219 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2023-08-18 15:56:22.220 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2023-08-18 15:56:22.220 +0530 [info] Populating test data with events found in the app
+2023-08-18 15:56:22.220 +0530 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2023-08-18 15:56:24.897 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 15:56:28.567 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /templates/schedule_detail.html[0m
+2023-08-18 15:56:28.586 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/util.js[0m
+2023-08-18 15:56:28.587 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\util.js[0m
+2023-08-18 15:56:28.605 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/schedule_detail.js[0m
+2023-08-18 15:56:28.606 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\schedule_detail.js[0m
+2023-08-18 15:56:30.113 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 15:56:30.724 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 15:57:35.565 +0530 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"createSchedule","methodParams":{"scheduleName":"5c70-4db0-4617-413d","scheduleData":{"subject":"hari04@gmail.com","description":"test","contact":"hari04@gmail.com","status":2,"priority":1,"scheduleAt":"2023-08-18T18:57","loggedInUserId":36004999747,"scheduleName":"5c70-4db0-4617-413d","scheduleAtUTC":"2023-08-18T13:27:00.000Z"}}}[0m
+2023-08-18 15:57:56.202 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-18 15:57:56.204 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-18 15:57:56.204 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2023-08-18 15:57:56.204 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json: Cannot find module 'C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/configs.json'
+Require stack:
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2023-08-18 15:57:56.204 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2023-08-18 15:57:56.204 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2023-08-18 15:57:56.204 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2023-08-18 15:57:56.205 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.16.1 on win32[0m
+2023-08-18 15:57:56.205 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/.fdk/store.sqlite"[0m
+2023-08-18 15:57:56.205 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:57:56.205 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2023-08-18 15:57:56.208 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2023-08-18 15:57:56.397 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"templates/index.html","icon":"images/icon.svg"}},"events":{"onScheduledEvent":{"handler":"onScheduledEventHandler"}},"functions":{"createSchedule":{"timeout":5},"fetchSchedule":{"timeout":5},"updateSchedule":{"timeout":5},"deleteSchedule":{"timeout":5}}}},"dependencies":{"request":"2.88.2","base-64":"1.0.0"},"engines":{"node":"18.16.1","fdk":"9.0.3"}}.[0m
+2023-08-18 15:57:56.398 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2023-08-18 15:57:56.400 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:57:56.413 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:57:57.310 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version will be deprecated by September 30, 2023 There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.0.4","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshdesk.com/v2/docs/what's-new/ ."}},"addon":{"version":"1.13.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1692342171511}}[0m
+2023-08-18 15:57:58.151 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2023-08-18 15:57:58.151 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2023-08-18 15:57:58.151 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2023-08-18 15:57:58.152 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2023-08-18 15:57:58.152 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2023-08-18 15:57:58.152 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events/config/ exists.[0m
+2023-08-18 15:57:58.153 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2023-08-18 15:57:58.153 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2023-08-18 15:57:58.153 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2023-08-18 15:57:58.163 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-18 15:57:58.163 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2023-08-18 15:57:58.166 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2023-08-18 15:57:58.166 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2023-08-18 15:57:58.168 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\index.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:57:58.201 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\list_schedule.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:57:58.212 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\schedule_detail.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:57:58.227 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file app\js\util.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2023-08-18 15:57:58.232 +0530 [debug] ([34mlint.js[0m) [31mRunning the following lints on the file server\server.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-proxy-requests,no-dependency-mismatch,no-empty-function,no-unused-vars[0m
+2023-08-18 15:57:58.239 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2023-08-18 15:57:58.239 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2023-08-18 15:57:58.239 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2023-08-18 15:57:58.239 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2023-08-18 15:57:58.239 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2023-08-18 15:57:58.239 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2023-08-18 15:57:58.243 +0530 [debug] ([34mevent.js[0m) [31mFound ["createSchedule","fetchSchedule","updateSchedule","deleteSchedule","onScheduledEventHandler"] as exported functions.[0m
+2023-08-18 15:57:58.243 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function createSchedule[0m
+2023-08-18 15:57:58.244 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function fetchSchedule[0m
+2023-08-18 15:57:58.244 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function updateSchedule[0m
+2023-08-18 15:57:58.244 +0530 [debug] ([34mmanifest.js[0m) [31mValidating function deleteSchedule[0m
+2023-08-18 15:57:58.246 +0530 [warn] Please ensure that the following are addressed for quick review process:
+2023-08-18 15:57:58.246 +0530 [warn] [33m‼[39m app\js\index.js::31: Expected rejection to be handled.
+2023-08-18 15:57:58.247 +0530 [warn] [33m‼[39m app\js\list_schedule.js::24: Expected rejection to be handled.
+2023-08-18 15:57:58.247 +0530 [warn] [33m‼[39m app\js\list_schedule.js::109: Expected rejection to be handled.
+2023-08-18 15:57:58.248 +0530 [warn] [33m‼[39m app\js\list_schedule.js::111: Expected rejection to be handled.
+2023-08-18 15:57:58.248 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::165: Expected rejection to be handled.
+2023-08-18 15:57:58.248 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::168: Expected rejection to be handled.
+2023-08-18 15:57:58.249 +0530 [warn] [33m‼[39m app\js\schedule_detail.js::172: Expected rejection to be handled.
+2023-08-18 15:57:58.249 +0530 [error] 
+2023-08-18 15:57:58.250 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2023-08-18 15:57:58.255 +0530 [debug] ([34minstall.js[0m) [31mdependency installer called with {"request":"2.88.2","base-64":"1.0.0"}[0m
+2023-08-18 15:57:58.284 +0530 [debug] ([34minstall.js[0m) [31mPreparing to install the following dependencies request@2.88.2,base-64@1.0.0[0m
+2023-08-18 15:57:58.285 +0530 [info] Installing dependencies...
+2023-08-18 15:57:58.615 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 15:57:59.326 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:57:59.327 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? undefined[0m
+2023-08-18 15:57:59.327 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2023-08-18 15:57:59.645 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2023-08-18 15:57:59.647 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2023-08-18 15:57:59.647 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2023-08-18 15:57:59.648 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2023-08-18 15:57:59.649 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2023-08-18 15:57:59.649 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Hariharan\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2023-08-18 15:57:59.662 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 15:57:59.663 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2023-08-18 15:57:59.664 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2023-08-18 15:57:59.664 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2023-08-18 15:57:59.665 +0530 [info] Populating test data with events found in the app
+2023-08-18 15:57:59.666 +0530 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2023-08-18 16:02:15.522 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /templates/list_schedules.html[0m
+2023-08-18 16:02:15.541 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/list_schedule.js[0m
+2023-08-18 16:02:15.542 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\list_schedule.js[0m
+2023-08-18 16:02:15.712 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/util.js[0m
+2023-08-18 16:02:15.712 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\util.js[0m
+2023-08-18 16:02:15.788 +0530 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "db" with action "fetch" and body {"action":"fetch","dbKey":"schedules_36004999747"}[0m
+2023-08-18 16:02:15.790 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 16:02:16.120 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 16:02:17.760 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m
+2023-08-18 16:12:41.898 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /templates/list_schedules.html[0m
+2023-08-18 16:12:41.912 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/util.js[0m
+2023-08-18 16:12:41.913 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\util.js[0m
+2023-08-18 16:12:41.926 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /js/list_schedule.js[0m
+2023-08-18 16:12:41.926 +0530 [debug] ([34mcoverage.js[0m) [31mInstrumenting C:\Users\Hariharan\Documents\freshdeskServerLessSamples\scheduled-events\app\js\list_schedule.js[0m
+2023-08-18 16:12:42.025 +0530 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "db" with action "fetch" and body {"action":"fetch","dbKey":"schedules_36004999747"}[0m
+2023-08-18 16:12:42.027 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2023-08-18 16:12:42.111 +0530 [debug] ([34mcoverage.js[0m) [31mWriting coverage.[0m

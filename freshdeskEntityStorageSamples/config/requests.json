@@ -1,0 +1,16 @@
+{
+    "getAddress": {
+        "schema": {
+            "method": "GET",
+            "host": "<%= iparam.domain %>.maps.googleapis.com",
+            "path": "/maps/api/geocode"
+        }
+    },
+    "getDistance": {
+        "schema": {
+            "method": "GET",
+            "host": "<%= iparam.domain %>.maps.googleapis.com",
+            "path": "/maps/api/distancematrix"
+        }
+    }
+}

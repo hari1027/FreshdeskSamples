@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="{{{appclient}}}"></script>
+  <title>CTI Global Sidebar</title>
+</head>
+
+<body>
+  cti_global_sidebar
+</body>
+<script defer>
+  (async function init() {
+    var client;
+    client = await app.initialized();
+    client.events.on('app.activated', () => {
+      console.log(`cti global sidebar placeholer :  app is activated 🥁`);
+    });
+  })();
+</script>
+
+</html>

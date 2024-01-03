@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="{{{appclient}}}"></script>
+    <title>Time Entry Background</title>
+  </head>
+  <body>
+    <main>
+      <p>app doesn't have ui</p>
+    </main>
+  </body>
+  <script defer>
+    (async function init() {
+      var client;
+      client = await app.initialized();
+      client.events.on('app.activated', () => {
+        console.info(`time_entry_background:  app is activated 🥁`);
+      });
+    })();
+  </script>
+</html>

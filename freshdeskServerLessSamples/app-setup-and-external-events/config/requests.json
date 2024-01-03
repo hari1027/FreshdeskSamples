@@ -1,0 +1,8 @@
+{
+    "handler": {
+        "schema": {
+            "method": "POST",
+            "host": "<%= iparam.domain %>.m.pipedream.net"
+        }
+    }
+}

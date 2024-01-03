@@ -1,0 +1,36 @@
+{
+  "platform-version": "2.3",
+  "product": {
+    "freshdesk": {
+      "events": {
+        "onAppInstall": {
+          "handler": "onAppInstallHandler"
+        },
+        "onTicketCreate": {
+          "handler": "onTicketCreateHandler"
+        }
+      },
+      "location": {
+        "full_page_app": {
+          "url": "template.html",
+          "icon": "assets/img/icon.png"
+        },
+        "ticket_sidebar": {
+          "url": "sidebar.html",
+          "icon": "assets/img/icon.png"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "18.17.1",
+    "fdk": "9.0.3"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.10"
+  },
+  "requests": {
+    "getAddress": {},
+    "getDistance": {}
+  }
+}

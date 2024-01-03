@@ -1,0 +1,1 @@
+{"lints":[{"severity":1,"value":"app\\scripts\\app.js::4: 'client' declared and assigned in different scopes. Possible asynchronous race condition."}]}
